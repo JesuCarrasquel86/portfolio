@@ -1,0 +1,46 @@
+.service{
+    @include main;
+    h2 {
+        font-size: 24pt;
+        letter-spacing: 1pt;
+    }
+    h4 {
+        margin: 25px 0;
+        font-size: 12pt;
+        font-weight: 400;
+        letter-spacing: 1pt;
+    }
+    p {
+        margin-top: 10px;
+        font-size: 10pt;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 16pt;
+    }
+    .sm-title {
+        margin-top: 10px;
+        margin-bottom: 40px;
+        font-size: 12pt;
+        font-weight: 300;
+        letter-spacing: 1px;
+        line-height: 21pt;
+    }
+    .service-wrap {
+        border: 1px solid rgba(255, 255, 255, .5);
+        padding: 25px 25px;
+        transition: all 0.4s;
+        &:hover {
+            border-bottom: 1px solid $secondary;
+        }
+    }
+    .fa {
+        margin-top: 30px;
+        font-size: 20pt;
+        color: $secondary;
+    }
+}
+
+.service .col-md-4 {
+    margin-top: 30px;
+}
+

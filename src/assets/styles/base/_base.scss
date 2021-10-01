@@ -1,0 +1,15 @@
+.line {
+    margin: 30px auto;
+    width: 30px;
+    height: 2px;
+    background-color: $secondary;
+}
+
+body{
+    color: $font !important;
+}
+
+@mixin main {
+    background-color: $black;
+    padding: 100px 0 50px;
+}
