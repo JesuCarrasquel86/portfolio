@@ -18,7 +18,7 @@ export const Contact = () => {
                     </div>
                     <div className="col-md-4 col-sm-4 col-xs-12">
                         <div className="email">
-                            <a href="mailto:j.e.carrasquel86@gmail.com@gmail.com">
+                            <a href="mailto:j.e.carrasquel86@gmail.com">
                                 <FontAwesomeIcon className='icon-ms' icon={faEnvelope} />
                                 <h4>J.E.CARRASQUEL86@GMAIL.COM</h4>
                             </a>
