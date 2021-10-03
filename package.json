@@ -1,4 +1,5 @@
 {
+  "homepage": "/",
   "name": "portfolio-yisus",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +20,6 @@
     "react-icons": "^4.3.0",
     "react-router-dom": "^5.2.1",
     "react-scripts": "^4.0.3",
-    "react-vanilla-tilt": "^1.0.0",
     "sweetalert2": "^11.1.7",
     "web-vitals": "^1.1.2"
   },
