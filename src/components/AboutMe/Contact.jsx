@@ -10,7 +10,7 @@ export const Contact = () => {
                 <div className="row text-center">
                     <div className="col-md-4 col-sm-4 col-xs-12">
                         <div className="phone">
-                            <a href="https://api.whatsapp.com/send?phone=584128059390&text=Hello%20Jes%C3%BAs!%20" target='_blank'>
+                            <a href="https://api.whatsapp.com/send?phone=584128059390&text=Hello%20Jes%C3%BAs!%20" target='_blank' rel='noreferrer'>
                                 <FontAwesomeIcon className='icon-ms' icon={faMobileAlt} />
                                 <h4>+58 412-8059390</h4>
                             </a>

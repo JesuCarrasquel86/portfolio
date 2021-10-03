@@ -1,23 +1,15 @@
-import React from 'react'
-import { useForm } from '../../hooks/useForm/useForm'
+import React, { useRef } from 'react';
 
-export const Form = () => {
+import emailjs from 'emailjs-com';
+import Swal from 'sweetalert2'
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 
-    const [values, handleInputChange, reset] = useForm({
-        name: '',
-        email: '',
-        message: ''
-    });
+export const FormContact = () => {
 
-    const { name, email, message } = values
-
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        console.log(values);
-        reset()
-    }
+    const form = useRef()
 
     return (
+
         <div className="form">
             <div className="container">
                 <div className="row">
@@ -27,12 +19,77 @@ export const Form = () => {
                     </div>
                     <div className="col-md-1 col-xs-12" />
                     <div className="col-md-10 col-sm-12 col-xs-12 text-center">
-                        <form id="form" onSubmit={handleSubmit}>
-                            <input type="text" className="text" name="name" value={name} placeholder="NAME" required onChange={handleInputChange} /><br />
-                            <input type="text" className="email" name="email" value={email} placeholder="EMAIL" required onChange={handleInputChange} /><br />
-                            <textarea className="msg" name="message" value={message} placeholder="MESSAGE" required onChange={handleInputChange} />
-                            <button className="btn" type='submit'>SEND MESSAGE</button>
-                        </form>
+                        <Formik
+                            initialValues={{
+                                name: '',
+                                email: '',
+                                message: ''
+                            }}
+                            validate={(values) => {
+                                let errors = {}
+
+                                if (!values.name) {
+                                    errors.name = 'Please insert a name'
+                                } else if (!/^[a-zA-ZÀ-ÿ\s]{1,40}$/.test(values.name)) {
+                                    errors.name = 'Name can only contain letters and spaces'
+                                }
+
+                                if (!values.email) {
+                                    errors.email = 'Please insert a email'
+                                } else if (!/^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$/.test(values.email)) {
+                                    errors.email = 'Invalid email'
+                                }
+
+                                return errors
+                            }}
+                            onSubmit={(values, { resetForm }) => {
+                                emailjs.sendForm('service_b07zacw', 'template_0qm1286', form.current, 'user_kLrcXkqPG3oaxYNlTppYX')
+                                    .then(Swal.fire({
+                                        title: 'Email Sent',
+                                        icon: 'success',
+                                    }))
+                                resetForm()
+                            }}
+                        >
+                            {({ errors }) => (
+                                <Form
+                                    ref={form}
+                                >
+                                    <div>
+                                        <Field
+                                            type="text"
+                                            className="text"
+                                            id="name"
+                                            name="name"
+                                            placeholder="NAME"
+                                        />
+                                        <ErrorMessage name='name' component={() => (<p>{errors.name}</p>)} />
+                                    </div>
+
+                                    <div>
+                                        <Field
+                                            type="text"
+                                            className="email"
+                                            id="email"
+                                            name="email"
+                                            placeholder="EMAIL"
+                                        />
+                                    </div>
+                                    <ErrorMessage name='email' component={() => (<p>{errors.email}</p>)} />
+                                    <div>
+                                        <Field
+                                            as='textarea'
+                                            className="msg"
+                                            id="message"
+                                            name="message"
+                                            placeholder="MESSAGE"
+                                        />
+                                    </div>
+
+                                    <button className="btn" type='submit'>SEND MESSAGE</button>
+                                </Form>
+                            )}
+                        </Formik>
                     </div>
                     <div className="col-md-1 col-xs-12" />
                 </div>

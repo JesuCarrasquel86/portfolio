@@ -4,7 +4,7 @@ import { Description } from '../components/AboutMe/Description'
 import { Header } from '../components/AboutMe/Header'
 import { Skills } from '../components/AboutMe/Skills';
 import { Services } from '../components/AboutMe/Services';
-import { Form } from '../components/AboutMe/Form';
+import { FormContact } from '../components/AboutMe/Form';
 import { Contact } from '../components/AboutMe/Contact';
 import { Footer } from '../components/AboutMe/Footer';
 
@@ -17,7 +17,7 @@ export const AboutMe = () => {
             <Description />
             <Skills />
             <Services />
-            <Form />
+            <FormContact />
             <Contact />
             <Footer />
             <Link to='/'>

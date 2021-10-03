@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import img from '../../assets/img/jesus_1.jpg';
-import { faFacebookF, faInstagram, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebookF, faGithub, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 export const Description = () => {
     return (
@@ -17,10 +17,10 @@ export const Description = () => {
                         </div>
                         <div className="about-icon">
                             <ul>
-                                <li><a href="#"><FontAwesomeIcon icon={faFacebookF} /></a></li>
-                                <li><a href="#"><FontAwesomeIcon icon={faInstagram} /></a></li>
-                                <li><a href="#"><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
-                                <li><a href="#"><FontAwesomeIcon icon={faTwitter} /></a></li>
+                                <li><a href="https://www.facebook.com/profile.php?id=100009797740953" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFacebookF} /></a></li>
+                                <li><a href="https://github.com/JesuCarrasquel86" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faGithub} /></a></li>
+                                <li><a href="#" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faLinkedinIn} /></a></li>
+                                <li><a href="#" target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faTwitter} /></a></li>
                             </ul>
                         </div>
                     </div>

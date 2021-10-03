@@ -5,9 +5,15 @@
         font-weight: 400;
         letter-spacing: 1pt;
     }
+    p{
+        text-align: left;
+        color: $secondary;
+    }
+    input, textarea{
+        color: $font;
+    }
     input:focus, textarea:focus{
         outline: none;
-        color: $font;
     }
     .text {
         width: 100%;

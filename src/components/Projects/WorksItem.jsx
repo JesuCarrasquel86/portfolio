@@ -24,7 +24,7 @@ export const WorksItem = () => {
                             <h3>{project.name}</h3>
                             <p>{project.description}</p>
                             <div className="project-btn">
-                                <a className="btn btn-default" href={project.url} role="button" target='_blank'>VISIT PROJECT</a>
+                                <a className="btn btn-default" href={project.url} role="button" target='_blank' rel='noreferrer'>VISIT PROJECT</a>
                             </div>
                         </div>
                     </div>
