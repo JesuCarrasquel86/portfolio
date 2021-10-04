@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio.io/static/css/main.98c8df0f.chunk.css",
-    "main.js": "/portfolio.io/static/js/main.3ee72d18.chunk.js",
-    "main.js.map": "/portfolio.io/static/js/main.3ee72d18.chunk.js.map",
-    "runtime-main.js": "/portfolio.io/static/js/runtime-main.f37aa3d4.js",
-    "runtime-main.js.map": "/portfolio.io/static/js/runtime-main.f37aa3d4.js.map",
-    "static/js/2.37732278.chunk.js": "/portfolio.io/static/js/2.37732278.chunk.js",
-    "static/js/2.37732278.chunk.js.map": "/portfolio.io/static/js/2.37732278.chunk.js.map",
-    "index.html": "/portfolio.io/index.html",
-    "static/css/main.98c8df0f.chunk.css.map": "/portfolio.io/static/css/main.98c8df0f.chunk.css.map",
-    "static/js/2.37732278.chunk.js.LICENSE.txt": "/portfolio.io/static/js/2.37732278.chunk.js.LICENSE.txt",
-    "static/media/Focus_Effects.9366fdcb.jpeg": "/portfolio.io/static/media/Focus_Effects.9366fdcb.jpeg",
-    "static/media/Gym-Studio.e688d9ec.png": "/portfolio.io/static/media/Gym-Studio.e688d9ec.png",
-    "static/media/Personal_Cards.831d250f.jpeg": "/portfolio.io/static/media/Personal_Cards.831d250f.jpeg",
-    "static/media/Pizzería-Restaurant.16fe73de.png": "/portfolio.io/static/media/Pizzería-Restaurant.16fe73de.png",
-    "static/media/Responsive_Web.7cf56983.jpeg": "/portfolio.io/static/media/Responsive_Web.7cf56983.jpeg",
-    "static/media/Social_Medias_Effect.ba246a45.jpeg": "/portfolio.io/static/media/Social_Medias_Effect.ba246a45.jpeg",
-    "static/media/styles.scss": "/portfolio.io/static/media/cover1.480c391e.jpg",
-    "static/media/jesus_1.d6caa647.jpg": "/portfolio.io/static/media/jesus_1.d6caa647.jpg"
+    "main.css": "/static/css/main.05b8b13d.chunk.css",
+    "main.js": "/static/js/main.3ee72d18.chunk.js",
+    "main.js.map": "/static/js/main.3ee72d18.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.969e0857.js",
+    "runtime-main.js.map": "/static/js/runtime-main.969e0857.js.map",
+    "static/js/2.37732278.chunk.js": "/static/js/2.37732278.chunk.js",
+    "static/js/2.37732278.chunk.js.map": "/static/js/2.37732278.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.05b8b13d.chunk.css.map": "/static/css/main.05b8b13d.chunk.css.map",
+    "static/js/2.37732278.chunk.js.LICENSE.txt": "/static/js/2.37732278.chunk.js.LICENSE.txt",
+    "static/media/Focus_Effects.9366fdcb.jpeg": "/static/media/Focus_Effects.9366fdcb.jpeg",
+    "static/media/Gym-Studio.e688d9ec.png": "/static/media/Gym-Studio.e688d9ec.png",
+    "static/media/Personal_Cards.831d250f.jpeg": "/static/media/Personal_Cards.831d250f.jpeg",
+    "static/media/Pizzería-Restaurant.16fe73de.png": "/static/media/Pizzería-Restaurant.16fe73de.png",
+    "static/media/Responsive_Web.7cf56983.jpeg": "/static/media/Responsive_Web.7cf56983.jpeg",
+    "static/media/Social_Medias_Effect.ba246a45.jpeg": "/static/media/Social_Medias_Effect.ba246a45.jpeg",
+    "static/media/styles.scss": "/static/media/cover1.480c391e.jpg",
+    "static/media/jesus_1.d6caa647.jpg": "/static/media/jesus_1.d6caa647.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f37aa3d4.js",
+    "static/js/runtime-main.969e0857.js",
     "static/js/2.37732278.chunk.js",
-    "static/css/main.98c8df0f.chunk.css",
+    "static/css/main.05b8b13d.chunk.css",
     "static/js/main.3ee72d18.chunk.js"
   ]
 }
