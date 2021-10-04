@@ -1,6 +1,6 @@
 import React from 'react';
 import {
-    BrowserRouter as Router,
+    BrowserRouter,
     Switch,
     Route
 } from "react-router-dom";
@@ -11,7 +11,7 @@ import { Projects } from '../pages/Projects';
 
 export const MainRouter = () => {
     return (
-        <Router>
+        <BrowserRouter>
             <div>
                 <Switch>
                     <Route exact path="/projects/:id" component={ WorksItem } />
@@ -20,6 +20,6 @@ export const MainRouter = () => {
                     <Route exact path="/" component={HomeScreen}/>
                 </Switch>
             </div>
-        </Router>
+        </BrowserRouter>
     )
 }
