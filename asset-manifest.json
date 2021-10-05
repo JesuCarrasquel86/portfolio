@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bc4bbbc4.chunk.css",
+    "main.css": "/portfolio/static/css/main.135435eb.chunk.css",
     "main.js": "/portfolio/static/js/main.289069fa.chunk.js",
     "main.js.map": "/portfolio/static/js/main.289069fa.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.37da8305.js",
@@ -8,7 +8,7 @@
     "static/js/2.248ac3cc.chunk.js": "/portfolio/static/js/2.248ac3cc.chunk.js",
     "static/js/2.248ac3cc.chunk.js.map": "/portfolio/static/js/2.248ac3cc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.bc4bbbc4.chunk.css.map": "/portfolio/static/css/main.bc4bbbc4.chunk.css.map",
+    "static/css/main.135435eb.chunk.css.map": "/portfolio/static/css/main.135435eb.chunk.css.map",
     "static/js/2.248ac3cc.chunk.js.LICENSE.txt": "/portfolio/static/js/2.248ac3cc.chunk.js.LICENSE.txt",
     "static/media/Focus_Effects.9366fdcb.jpeg": "/portfolio/static/media/Focus_Effects.9366fdcb.jpeg",
     "static/media/Gym-Studio.e688d9ec.png": "/portfolio/static/media/Gym-Studio.e688d9ec.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.37da8305.js",
     "static/js/2.248ac3cc.chunk.js",
-    "static/css/main.bc4bbbc4.chunk.css",
+    "static/css/main.135435eb.chunk.css",
     "static/js/main.289069fa.chunk.js"
   ]
 }
